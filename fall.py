@@ -31,3 +31,10 @@ plots.plot_0_b(data, s0figpath)
 
 ## =========================================== ##
 ## Step 1 -- Fit the broadband light curve
+
+# pick which models to use
+#   available astrophysical models are ['batman_transit']
+#   available systematic models are ['visit_ramp1']
+astro_models = ['batman_transit']
+sys_models = ['visit_ramp1']
+# define parameters to fit for
