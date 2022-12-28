@@ -11,8 +11,8 @@ def init_batman_transit(theta, times):
     params.inc = theta[4]                      #orbital inclination (in degrees)
     params.ecc = theta[5]                       #eccentricity
     params.w = theta[6]                        #longitude of periastron (in degrees)
-    params.limb_dark = theta[7]       #limb darkening model
-    params.u = [theta[8]]      #limb darkening coefficients [u1, u2, u3, u4]
+    params.u = [theta[7]]      #limb darkening coefficients [u1, u2, u3, u4]
+    params.limb_dark = theta[8]       #limb darkening model
 
     init_batman_env = batman.TransitModel(params, times)    #initializes model
     return init_batman_env
@@ -30,8 +30,8 @@ def batman_transit(theta, model_initialization):
     params.inc = theta[4]                      #orbital inclination (in degrees)
     params.ecc = theta[5]                       #eccentricity
     params.w = theta[6]                        #longitude of periastron (in degrees)
-    params.limb_dark = theta[7]       #limb darkening model
-    params.u = [theta[8]]      #limb darkening coefficients [u1, u2, u3, u4]
+    params.u = [theta[7]]      #limb darkening coefficients [u1, u2, u3, u4]
+     params.limb_dark = theta[8]       #limb darkening model
     
     lc = model_initialization.light_curve(params)
     return lc
