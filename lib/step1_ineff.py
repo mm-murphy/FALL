@@ -24,7 +24,9 @@ inputdatafile = workdir+'/step0/outputs/step0_data.object'
 outputpath = workdir+'/step1/'
 if not os.path.isdir(outputpath):
     os.makedirs(outputpath)
+if not os.path.isdir(outputpath+'figures/'):
     os.makedirs(outputpath+'figures/')
+if not os.path.isdir(outputpath+'outputs/'):
     os.makedirs(outputpath+'outputs/')
 
 ## -- Something to get the data ...
@@ -193,8 +195,8 @@ if plot_initial:
 ## -- Setting up my MCMC stuff    
 Ndimensions = len(theta_init)
 Nwalkers = 3*Ndimensions
-burn = 100
-Nsteps = 500 + burn
+burn = 1000
+Nsteps = 5000 + burn
 rerun = True      # re-runs MCMC in this iteration
 saveVals = True  # saves chains to file
 storeVals = False # stores best fit array to ipython cache

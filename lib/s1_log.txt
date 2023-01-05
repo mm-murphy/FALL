@@ -1,0 +1,64 @@
+=============================
+Initial statistics
+   log Prior = 22.251396
+   log Likelihood = -860862.007771
+   log Posterior = -860839.756375
+   chi^2 = 1750055.892907
+   reduced chi^2 = 1046.684146
+   mean data uncertainty = 87 ppm
+   mean |residual| = 1908 ppm
+MCMC walkers Initialized from scratch
+Parameter Sampling Results:
+t0 : 
+Best Fit =  2455953.662168118  +/-  0.005973817780613899
+   Uncertainties are +  0.004325754474848509  , -  0.00762188108637929
+   Initial value was =  2455953.663
+log10P : 
+Best Fit =  0.5233122704286295  +/-  6.619265740526181e-07
+   Uncertainties are +  8.462887266524888e-07  , -  4.775644214527475e-07
+   Initial value was =  0.5233105232922759
+log10aRs : 
+Best Fit =  0.9913304135592864  +/-  0.0006560755601793256
+   Uncertainties are +  0.0002876392153899898  , -  0.0010245119049686613
+   Initial value was =  1.1112625136590653
+cosi : 
+Best Fit =  0.015481935087507993  +/-  0.007892090089315868
+   Uncertainties are +  0.008372417850643542  , -  0.0074117623279881945
+   Initial value was =  0.015183781002100515
+rprs : 
+Best Fit =  0.07708470825553682  +/-  0.00019159120179811084
+   Uncertainties are +  0.00032061591001440737  , -  6.256649358181432e-05
+   Initial value was =  0.07642
+u1 : 
+Best Fit =  0.24237252429050643  +/-  0.014126617601181238
+   Uncertainties are +  0.01230579498662765  , -  0.015947440215734826
+   Initial value was =  0.5
+u2 : 
+Best Fit =  0.9949839045058567  +/-  0.0533189513286616
+   Uncertainties are +  0.0038861793185933635  , -  0.10275172333872984
+   Initial value was =  0.5
+sys a1 : 
+Best Fit =  -0.0013102655554194612  +/-  0.0005534906762457874
+   Uncertainties are +  0.0010581099428786892  , -  4.887140961288552e-05
+   Initial value was =  0.0
+sys a0 : 
+Best Fit =  3224.1019931734986  +/-  1361.522978055278
+   Uncertainties are +  120.21800555353593  , -  2602.82795055702
+   Initial value was =  1.0
+=============================
+Median ("best-fit") model statistics
+   log Prior = 9.930988
+   log Likelihood = -36850.617336
+   log Posterior = -36840.686348
+   chi^2 = 102033.112038
+   reduced chi^2 = 61.024589
+   mean data uncertainty = 87 ppm
+   mean detrended data uncertainty = 87 ppm
+   mean |residual| = 544 ppm
+=================================
+Estimates for current epoch transit time...
+  Value propagated from best fit previous t0 and ephemeris:
+        t0 = 2459884.250503 +/- 0.008460
+  Value determined from l.s. fit:
+        t0 = 2459884.260645 +/- 0.000024
+  These values are 1.20 - sigma apart
